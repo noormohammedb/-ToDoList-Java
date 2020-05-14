@@ -7,9 +7,12 @@
     
 // }
 
-const paper = document.querySelector(".paper");
-var list = document.createElement("li")
-
+const paper = document.querySelector("#paper").val;
+var item = document.createElement("li");
+var list = document.querySelector(".list");
 function btn(){
-    document.querySelector(".list");
+    console.log(paper);
+    
+    list.appendChild(item.innerHTML="paper");
+    list.classList.remove("hide");
 }
