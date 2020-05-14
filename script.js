@@ -7,12 +7,15 @@
     
 // }
 
-const paper = document.querySelector("#textBox").val;
+const paper = document.querySelector("#textBox");
 var item = document.createElement("li");
-var list = document.querySelector(".list");
-function btn(){
+var list = document.querySelector(".hide");
+var li = document.createElement("li");
+    li.innerText="hello world";
+function btn(){  
     console.log(paper);
-    
-    list.appendChild(item.innerHTML="paper");
+    let f_li = li.cloneNode(true);
+    f_li.innerText = paper.value;
+    list.appendChild(f_li);
     list.classList.remove("hide");
 }
