@@ -14,11 +14,11 @@ body {
     border: gray 0.08rem solid;
     border-radius: 1rem;
 }
-.paper {
+.textBox {
     width: 15rem;
     height: 2rem;
 }
-.pen {
+.add {
     background: linear-gradient(#1c117e8a,  #16106b8f);
     color: #f0f0f0;
     font-size: 1rem;

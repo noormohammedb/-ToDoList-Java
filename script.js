@@ -7,7 +7,7 @@
     
 // }
 
-const paper = document.querySelector("#paper").val;
+const paper = document.querySelector("#textBox").val;
 var item = document.createElement("li");
 var list = document.querySelector(".list");
 function btn(){
